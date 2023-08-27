@@ -1,7 +1,17 @@
 # Spring boot Kafka demo app
-Demo Spring boot Kafka App which consist of consumers and producers.
+Demo Spring boot Kafka App which consist of a consumer and a producer.
+The project is also consist of following Kafka services. 
+- Zookeeper
+- Brokers
+- schema-registry
 
 ### Running the project in Docker
+This will allow to build and run all the services in Docker. <br>
+- Spring boot App (consumer and producer)
+- Zookeeper - 1
+- Brokers - 3
+- schema-registry - 1
+
 <strong>Prerequisites</strong></br>
 - Docker installation
 
